@@ -1,0 +1,24 @@
+全局对象,采用依赖注入的方式调用下面的系列对象
+
+>调用
+
+	include('Seter/Seter.php');
+	$Seter = new \Seter\Seter();
+
+设置全局变量
+
+    include('Seter/Seter.php');
+    $Seter = new \Seter\Seter();
+    $Seter['btr'] = 123;
+    $Seter->btr2 = 345;
+    echo count($Seter);
+    echo $Seter['btr'];
+    echo $Seter->btr2;
+    var_dump($Seter->data);
+
+依赖注入和调用
+
+    $this->singleton('doc', function ($c) {
+        return new \Seter\Library\Doc();
+    });
+    var_dump($this->doc)；

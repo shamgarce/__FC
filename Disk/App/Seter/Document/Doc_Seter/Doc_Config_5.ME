@@ -1,0 +1,36 @@
+>Seter\Config\Default.php
+
+    $config = [
+        //mysql
+        'mysql' => [
+            'default' => [
+                "hostname"  =>  '127.0.0.1',
+                "username"  =>  'ns',
+                "password"  =>  'nsgd012003',
+                "database"  =>  'ns',
+                "charset"   =>  'utf8',
+                "pconnect"  =>  '0',
+                "quiet"     =>  '0'
+            ],
+        ],
+        'ry' => [
+        ],
+        'db' => [
+        ],
+        'mdb' => [
+        ],
+        'request' => [
+        ],
+        'table' => [
+        ],
+        'user' => [
+        ],
+        'doc' => [
+        ],
+    ];
+    
+    return $config;
+
+>调用
+
+    \Seter\$Seter->Config

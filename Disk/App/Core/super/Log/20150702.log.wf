@@ -1,0 +1,8973 @@
+[ 2015-07-02 13:24:38 ][FATAL]控制器inde2x不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器inde2x不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:24:44 ][FATAL]控制器testm不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器testm不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:26:51 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 422,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 333,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/index.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'index',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 11,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => '',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:26:52 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 422,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 333,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/index.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'index',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 11,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => '',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:26:53 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 422,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 333,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/index.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'index',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 11,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => '',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:26:53 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 422,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 333,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/index.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'index',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 11,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => '',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:26:53 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 422,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 333,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/index.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'index',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 11,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => '',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:26:53 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 422,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 333,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/index.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'index',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 11,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => '',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:26:53 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 422,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 333,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/index.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'index',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 11,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => '',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:26:53 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 422,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 333,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/index.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'index',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 11,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => '',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:26:53 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 422,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 333,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/index.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'index',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 11,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => '',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:26:53 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 422,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\index.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 333,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/index.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'index',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 11,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => '',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:39:49 ][FATAL]Widget Side不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Side不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 14,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Side',
+      1 => 
+      array (
+        'page' => 'Index',
+      ),
+    ),
+  ),
+  2 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+          'te' => 'te1',
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+              'te' => 'te1',
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:39:50 ][FATAL]Widget Side不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Side不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 14,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Side',
+      1 => 
+      array (
+        'page' => 'Index',
+      ),
+    ),
+  ),
+  2 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+          'te' => 'te1',
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+              'te' => 'te1',
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:39:50 ][FATAL]Widget Side不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Side不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 14,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Side',
+      1 => 
+      array (
+        'page' => 'Index',
+      ),
+    ),
+  ),
+  2 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+          'te' => 'te1',
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+              'te' => 'te1',
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:39:50 ][FATAL]Widget Side不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Side不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 14,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Side',
+      1 => 
+      array (
+        'page' => 'Index',
+      ),
+    ),
+  ),
+  2 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+          'te' => 'te1',
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+              'te' => 'te1',
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:39:51 ][FATAL]Widget Side不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Side不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 14,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Side',
+      1 => 
+      array (
+        'page' => 'Index',
+      ),
+    ),
+  ),
+  2 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+          'te' => 'te1',
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+              'te' => 'te1',
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:40:01 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 14,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 
+      array (
+        'page' => 'Index',
+      ),
+    ),
+  ),
+  2 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+          'te' => 'te1',
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+              'te' => 'te1',
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:40:02 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 14,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 
+      array (
+        'page' => 'Index',
+      ),
+    ),
+  ),
+  2 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+          'te' => 'te1',
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+              'te' => 'te1',
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:40:02 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 14,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 
+      array (
+        'page' => 'Index',
+      ),
+    ),
+  ),
+  2 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+          'te' => 'te1',
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+              'te' => 'te1',
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:40:02 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 14,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 
+      array (
+        'page' => 'Index',
+      ),
+    ),
+  ),
+  2 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+          'te' => 'te1',
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+              'te' => 'te1',
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:53:10 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 14,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 
+      array (
+        'page' => 'Index',
+      ),
+    ),
+  ),
+  2 => 
+  array (
+    'function' => 'doIndex',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/index.php',
+         '_data' => 
+        array (
+          'te' => 'te1',
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/index.php',
+             '_data' => 
+            array (
+              'te' => 'te1',
+            ),
+          )),
+        )),
+        1 => 'doIndex',
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:53:11 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:53:37 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:54:27 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:54:56 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:54:58 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:54:59 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:55:16 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:55:31 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:55:32 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:55:35 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:55:40 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:55:41 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:56:04 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:56:14 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:57:00 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:57:00 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:57:22 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:57:32 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:57:47 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:57:48 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:57:53 ][FATAL]方法doUrl不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 193,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doUrl不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:57:55 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:57:57 ][FATAL]方法doUrl不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 193,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doUrl不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:58:05 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:58:07 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 13:59:59 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:00:00 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:00:03 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:00:17 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:00:19 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:00:23 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:00:38 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:00:38 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:00:40 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:00:41 ][FATAL]方法doWidget不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 193,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doWidget不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:00:42 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:00:43 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:00:53 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:00:53 ][FATAL]something
+[ 2015-07-02 14:00:53 ][WARN]something
+[ 2015-07-02 14:00:54 ][FATAL]something
+[ 2015-07-02 14:00:54 ][WARN]something
+[ 2015-07-02 14:00:55 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:00:58 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:00:59 ][FATAL]something
+[ 2015-07-02 14:00:59 ][WARN]something
+[ 2015-07-02 14:00:59 ][FATAL]something
+[ 2015-07-02 14:00:59 ][WARN]something
+[ 2015-07-02 14:01:00 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:01:02 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:01:31 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:01:33 ][FATAL]方法doCommon不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 193,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doCommon不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:01:35 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:01:49 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:01:51 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:01:54 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:02:23 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:02:25 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:02:27 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:02:29 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:02:31 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:02:33 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:02:54 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:02:55 ][FATAL]控制器home.url不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器home.url不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:02:59 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:06 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:08 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:10 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:11 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:13 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:15 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:17 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:18 ][FATAL]方法doAutoload不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 193,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doAutoload不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:19 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:20 ][FATAL]方法doWidget不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 193,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doWidget不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:21 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:21 ][FATAL]something
+[ 2015-07-02 14:03:21 ][WARN]something
+[ 2015-07-02 14:03:23 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:35 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:38 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:42 ][FATAL]方法doAutoload不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 193,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doAutoload不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:43 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:44 ][FATAL]方法doWidget不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 193,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doWidget不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:03:45 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:15 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:30 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:30 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:39 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:46 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 421,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 333,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/widget.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'widget',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 39,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doWidget',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/widget.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doWidget',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:47 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 421,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 333,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/widget.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'widget',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 39,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doWidget',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/widget.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doWidget',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:47 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 421,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 333,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/widget.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'widget',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 39,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doWidget',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/widget.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doWidget',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:47 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 421,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 333,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/widget.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'widget',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 39,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doWidget',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/widget.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doWidget',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:48 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:49 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:49 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 421,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 333,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/widget.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'widget',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 39,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doWidget',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/widget.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doWidget',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:50 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:51 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:52 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:55 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:56 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:56 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:57 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:57 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:04:57 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:05:19 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:05:22 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:05:25 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:05:27 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:05:28 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:05:30 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:05:32 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:05:32 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:05:34 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:05:59 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:06:43 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:08:11 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 421,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 333,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/widget.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'widget',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 39,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doWidget',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/widget.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doWidget',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:08:53 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 419,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 331,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/widget.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'widget',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 39,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doWidget',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 195,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/widget.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doWidget',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:17:06 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 422,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 334,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/widget.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'widget',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 39,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doWidget',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 198,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/widget.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doWidget',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:17:07 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 422,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 334,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/widget.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'widget',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 39,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doWidget',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 198,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/widget.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doWidget',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:17:07 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 422,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 334,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/widget.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'widget',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 39,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doWidget',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 198,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/widget.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doWidget',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:17:07 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 422,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 334,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/widget.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'widget',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 39,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doWidget',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 198,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/widget.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doWidget',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:17:08 ][FATAL]Widget Test不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 63,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => 'Widget Test不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    'line' => 3,
+    'function' => 'W',
+    'args' => 
+    array (
+      0 => 'Test',
+      1 => 'abc',
+    ),
+  ),
+  2 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 422,
+    'args' => 
+    array (
+      0 => 'E:\\www\\FC\\Disk\\App\\View\\home\\Widget.php',
+    ),
+    'function' => 'include',
+  ),
+  3 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 334,
+    'function' => 'display',
+    'class' => 'View',
+    'object' => 
+    View::__set_state(array(
+       '_tplDir' => '././App//View',
+       '_viewPath' => '././App//View/home/widget.php',
+       '_data' => 
+      array (
+      ),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+      0 => 'widget',
+      1 => 
+      array (
+      ),
+    ),
+  ),
+  4 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\App\\Controller\\home.php',
+    'line' => 39,
+    'function' => 'display',
+    'class' => 'Controller',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  5 => 
+  array (
+    'function' => 'doWidget',
+    'class' => 'home',
+    'object' => 
+    home::__set_state(array(
+       '_view' => 
+      View::__set_state(array(
+         '_tplDir' => '././App//View',
+         '_viewPath' => '././App//View/home/widget.php',
+         '_data' => 
+        array (
+        ),
+      )),
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 198,
+    'function' => 'call_user_func',
+    'args' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        home::__set_state(array(
+           '_view' => 
+          View::__set_state(array(
+             '_tplDir' => '././App//View',
+             '_viewPath' => '././App//View/home/widget.php',
+             '_data' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 'doWidget',
+      ),
+    ),
+  ),
+  7 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:21:00 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:21:02 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:21:05 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:21:06 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:21:11 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:21:12 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:21:12 ][FATAL]something
+[ 2015-07-02 14:21:12 ][WARN]something
+[ 2015-07-02 14:21:13 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:21:14 ][FATAL]方法doAutoload不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 193,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doAutoload不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:21:17 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:21:34 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:21:36 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:21:37 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:23:33 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:27:40 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:27:41 ][FATAL]方法doFetch不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 193,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doFetch不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:30:41 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:31:10 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:32:29 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:32:42 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:32:54 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:34:59 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:35:11 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:35:19 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:35:21 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:35:25 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:35:50 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:35:56 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:35:58 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:36:07 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:36:35 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:37:02 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:37:03 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 7,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:37:16 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 8,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:37:21 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 8,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:37:53 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:37:53 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:41:29 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:41:40 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:41:51 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:41:52 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:42:12 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:42:13 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:42:15 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:42:17 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:42:18 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:42:20 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:42:22 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:42:24 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:42:26 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:42:27 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:42:28 ][FATAL]something
+[ 2015-07-02 14:42:28 ][WARN]something
+[ 2015-07-02 14:42:29 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:42:29 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:42:32 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:42:33 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:43:16 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:43:20 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:44:08 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:44:09 ][FATAL]方法doRouter不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 193,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doRouter不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:44:13 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:44:14 ][FATAL]控制器assets不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 187,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器assets不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 14:46:56 ][FATAL]something
+[ 2015-07-02 14:46:56 ][WARN]something
+[ 2015-07-02 15:15:32 ][FATAL]something
+[ 2015-07-02 15:15:32 ][WARN]something
+[ 2015-07-02 15:15:33 ][FATAL]something
+[ 2015-07-02 15:15:33 ][WARN]something
+[ 2015-07-02 15:17:37 ][FATAL]something
+[ 2015-07-02 15:17:37 ][WARN]something
+[ 2015-07-02 15:48:29 ][FATAL]控制器index.php不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 191,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器index.php不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 15:48:31 ][FATAL]控制器index.php不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 191,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器index.php不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 15:48:37 ][FATAL]方法doRouter不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 197,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doRouter不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 15:48:38 ][FATAL]方法doRouter不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 197,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doRouter不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 15:55:34 ][FATAL]something
+[ 2015-07-02 15:55:34 ][WARN]something
+[ 2015-07-02 15:59:39 ][FATAL]方法doParams不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 197,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doParams不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 16:57:51 ][FATAL]something
+[ 2015-07-02 16:57:51 ][WARN]something
+[ 2015-07-02 17:13:23 ][FATAL]方法doGh不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 198,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doGh不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 17:13:52 ][FATAL]方法doSuper不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 198,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doSuper不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-02 17:13:54 ][FATAL]方法doSuper不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 198,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doSuper不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)

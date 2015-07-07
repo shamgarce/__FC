@@ -1,0 +1,1394 @@
+[ 2015-06-30 15:52:20 ][FATAL]something
+[ 2015-06-30 15:52:20 ][WARN]something
+[ 2015-06-30 16:31:37 ][FATAL]控制器asdfa=Common不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 177,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdfa=Common不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 10,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdfa=Common',
+       'a' => 'Index',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:31:43 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 177,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 10,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:31:45 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 177,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 10,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:31:45 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 177,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 10,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:31:45 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 177,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 10,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:31:45 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 177,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 10,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:31:45 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 177,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 10,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:31:45 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 177,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 10,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:31:45 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 177,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 10,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:31:45 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 177,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 10,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:32:09 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 176,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:32:10 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 176,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:32:10 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 176,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:32:10 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 176,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:32:11 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 176,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:32:11 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 176,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:32:11 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 176,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:32:12 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 176,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:36 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:37 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:38 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:38 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:38 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:38 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:38 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:38 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:38 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:38 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:38 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:38 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:38 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:47 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:48 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:48 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:48 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:48 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:48 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:48 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:48 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 16:34:48 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 178,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 11,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 17:20:29 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 210,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 14,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 17:20:30 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 210,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 14,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 17:20:30 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 210,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 14,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 17:20:30 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 210,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 14,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 17:20:31 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 210,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 14,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 17:20:31 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 210,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 14,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 17:20:31 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 210,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 14,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-06-30 17:20:31 ][FATAL]控制器asdf不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 210,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器asdf不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 14,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => 'asdf',
+       'a' => 'Common',
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)

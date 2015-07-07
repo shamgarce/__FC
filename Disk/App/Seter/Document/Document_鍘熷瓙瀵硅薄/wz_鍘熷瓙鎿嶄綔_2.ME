@@ -1,0 +1,35 @@
+##CrossPHP一个简洁高效，轻量易扩展的PHP5.3+开发框架。
+
+### 一. 需求
+PHP5.3以上版本，mysql需要PDO支持。
+
+### 二. 简介
+
+支持PSR标准，支持composer。HMVC，支持注释配置（支持自定义，只有想不到，没有做不到）。
+Layer布局支持，更换模板更简单。路由别名（先写代码，后定义，比如rul：/Controoooooller/Actiooooon/5，可以通过别名指定为：/d/5）。
+全局的异常处理系统及错误展示，在开发中可以快速定位到具体的代码行数。简单的Mysql查询。欢迎各种性能对比测试。
+
+### 三. 下载安装
+1. 从[http://www.crossphp.com/download](http://www.crossphp.com/download "crossphp.com")下载框架完整版并解压到本地目录（默认情况下skeleton和crossphp要保持在同级目录）。
+2. 通过 `http://localhost/skeleton/htdocs/web` 来访问默认的web页面
+
+
+>正常访问 `http://localhost/skeleton/htdocs/admin`, 需要修改你的数据库配置`skeleton/config/db.config.php`,并导入`skeleton/sql/admin/back.sql`文件。
+
+
+### 四. 使用Composer安装
+单独下载最新版skeleton，并解压到web目录，在skeleton根目录下新建一个名为 `composer.json` 文件，输入如下内容
+
+    {
+        "require": {
+            "ideaa/cross": "dev-master"
+        }
+    }
+
+进入进入系统的命令行模式并切换到skeleton目录，在命令行中输入 `composer install` , 等待安装完后，编辑skeleton目录下的 `crossboot.php` 文件，修改文件的最后两行为：
+
+    require PROJECT_PATH.'vendor/autoload.php';
+    class_alias('Cross\Core\Delegate', 'Cross');
+
+加载`vendor`提供的autoload文件， 为 `Cross\Core\Delegate` 指定一个别名，至此安装结束。
+>正常访问 `http://localhost/skeleton/htdocs/admin`, 需要修改你的数据库配置`skeleton/config/db.config.php`,并导入`skeleton/sql/admin/back.sql`文件。

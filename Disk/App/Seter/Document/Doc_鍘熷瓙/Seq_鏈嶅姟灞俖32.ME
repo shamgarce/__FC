@@ -1,0 +1,15 @@
+st=>start: 开始
+e=>end: return
+
+seter=>subroutine: Seter
+config=>subroutine: 配置
+route=>subroutine: 路由
+re=>subroutine: re
+ob=>subroutine: 子对象
+hmvc=>subroutine: hmvc
+cond=>condition: ob or mvc?
+io=>inputoutput: 输入输出...
+
+st->seter->config->cond
+cond(yes)->ob->io->e
+cond(no,right)->route(right)->hmvc->io->e

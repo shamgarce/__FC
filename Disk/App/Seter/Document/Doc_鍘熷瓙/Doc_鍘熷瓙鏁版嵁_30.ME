@@ -1,0 +1,60 @@
+##原子数据
+原子数据相对稳定，经过系统的原子层就能得到稳定的结果，直接参与运算
+例如 
+
+### 原子数据
+
+    echo time();
+    echo data;
+    echo ISPOST;
+    echo ISGUEST;
+
+> 为了更好运用这些数据，对这些数据进行分层整理：分为如下几层
+
+- 系统 linux
+- 发布工具 Apache
+- php相关 php5.4+
+- cms相关 microphp
+- 模块相关 model
+- 其他设定
+
+主要收集的数据包括[详细]
+
+- 时间
+入口时间，当前时间，结束时间
+- 时区
+- 配置点
+- 目录
+- 入口参数
+- 行为判断
+- debug
+- 输出【】
+- ROUTE
+- user
+
+
+    define('IN_WONIU_APP', TRUE);
+	define('WDS', DIRECTORY_SEPARATOR);
+	//Sham Seter
+	define('SALT', 'ccab8f440ff0825e');
+	
+	include('Seter/Seter.php');
+	
+	//\Seter\Seter::sterini();
+	/* End of file index.php */
+	include('MicroPHP.Config.php');
+	include('MicroPHP.Fun.php');
+	include('MicroPHP.php');
+	include('MicroPHP.Controller.php');
+	
+	/**
+	 * 注册HMVC模块，这里填写模块名称关联数组,键是url中的模块别名，值是模块文件夹名称
+	 */
+	$system['hmvc_modules'] = array(
+		'demo'    => 'hmvc_demo',
+		'manage'  => 'hmvc_manage',
+		'man' 	=> 'hmvc_man',
+		'v6' 	 => 'hmvc_v6',
+		'doc' 	=> 'hmvc_doc',
+	);
+	$system['debug'] = false;

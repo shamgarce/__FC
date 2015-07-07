@@ -1,0 +1,245 @@
+>调用示例
+
+    \Sham::T()
+
+>签名hash算法,用于签名算法验证
+
+    public static function signnature($str)
+    {
+        return MD5(MD5(MD5(MD5($str))));
+    }
+
+>设置cookie -这个有错误,需要重新调试下
+
+    public static function setcookie($cookiename,$cookievalue='',$cookietime=604800)
+    {
+        $cookiename = "Seter_$cookiename";
+        $tm = time()+$cookietime;
+        setcookie($cookiename,$cookievalue,$tm);
+        return true;
+    }
+
+>获取cookie
+
+    public static function getcookie($cookiename)
+    {
+        $cookiename = "Seter_$cookiename";
+        return $_COOKIE[$cookiename];
+    }
+
+>记录当前的信息 这里需要重新规划,用一个对象来处理这些信息
+
+    public static function trace($info='')
+    {
+        array_push(\Seter\Seter::$trace,$info);
+    }
+
+>获取trace信息
+
+    public static function gettrace()
+    {
+        return \Seter\Seter::$trace;
+    }
+
+>页面跳转
+
+    public static function R($url, $time=0, $msg='') {
+        $url = str_replace(array("\n", "\r"), '', $url);
+        if (empty($msg))
+            $msg = "系统将在{$time}秒之后自动跳转到{$url}！";
+        if (!headers_sent()) {
+            // redirect
+            if (0 === $time) {
+                header('Location: ' . $url);
+            } else {
+                header("refresh:{$time};url={$url}");
+                echo($msg);
+            }
+            exit();
+        } else {
+            $str = "<meta http-equiv='Ref"."resh' content='{$time};URL={$url}'>";
+            if ($time != 0)
+                $str .= $msg;
+            exit($str);
+        }
+    }
+
+>获取当前时间戳
+
+    public static function T(){
+        list($usec, $sec) = explode(" ",microtime());
+        $num = ((float)$usec + (float)$sec);
+        return $num;
+    }
+
+>对当前字符串进行unserialize 获得数组
+
+    public static function U($str){
+        if (empty($str)) return array();
+        $arr = unserialize($str);
+        $arr = !empty($arr)?$arr:array();
+        return $arr;
+    }
+
+>字符串分割获得数组
+
+    public static function getarr($str,$flit='0',$bl = "\r\n"){
+        $arr = array();
+        if(empty($str)) return $arr;
+        //+------------------------------------------------
+        $arr_ = explode($bl,$str);
+        if($flit) $arr_ = array_unique($arr_);
+        foreach($arr_ as $key=>$value){
+            if(!empty($value)) $arr[] = trim($value);
+        }
+        return $arr;
+    }
+
+>数据拼接成字符串
+
+    public static function getstr($arr,$flit='0',$bl = "\r\n"){
+        if(empty($arr)) return '';
+        //+------------------------------------------------
+        foreach($arr as $key=>$value){
+            if(!empty($value)) $arr_[] = trim($value);
+        }
+        if(!empty($arr_)){
+            if($flit) $arr_ = array_unique($arr_);
+            $str = implode($bl,$arr_);
+        }else{
+            $str = '';
+        }
+        return $str;
+    }
+
+>保存文件
+
+    public static function Fs($fileName, $text) {
+        if( ! $fileName ) return false;
+        if( $fp = @fopen( $fileName, "wb" ) ) {
+            if( @fwrite( $fp, $text ) ) {
+                fclose($fp);
+                return true;
+            }else {
+                fclose($fp);
+                return false;
+            }
+        }
+        return false;
+    }
+
+>读取文件
+
+    public static function Fr($filename){
+        if( is_file( $filename ) ){
+            $cn = file_get_contents( $filename );
+            return $cn;
+        }
+    }
+
+>魔术转义
+
+    public static function saddslashes($string) {
+        if (is_array($string)) {
+            foreach ($string as $key => $val) {
+                $string[$key] = \Sham::saddslashes($val);
+            }
+        } else {
+            $string = addslashes($string);
+        }
+        return $string;
+    }
+
+>html实体转义
+
+    public static function shtmlspecialchars($string) {
+        if (is_array($string)) {
+            foreach ($string as $key => $val) {
+                $string[$key] = \Sham::shtmlspecialchars($val);
+            }
+        } else {
+            $string = htmlspecialchars($string);
+        }
+        return $string;
+    }
+
+>剪切字符串
+
+    public static function cut($startstr="",$endstr="",$str){
+        if(empty($startstr) || empty($endstr))return '';
+        $outstr="";
+        if(!empty($str) && strpos($str,$startstr)!==false && strpos($str,$endstr)!==false){
+            $startpos	= strpos($str,$startstr);
+            $str		= substr($str,($startpos+strlen($startstr)),strlen($str));
+            $endpos		= strpos($str,$endstr);
+            $outstr		= substr($str,0,$endpos);
+        }
+        return trim($outstr);
+    }
+
+>判断字符串是否存在
+
+    public static function strexists($haystack, $needle) {
+        return !(strpos($haystack, $needle) === FALSE);
+    }
+
+>对象转数组
+
+    public static function ob2ar($obj) {
+        if(is_object($obj)) {
+            $obj = (array)$obj;
+            $obj = self::ob2ar($obj);
+        } elseif(is_array($obj)) {
+            foreach($obj as $key => $value) {
+                $obj[$key] = self::ob2ar($value);
+            }
+        }
+        return $obj;
+    }
+
+>资源\/转换
+
+    public static function uri( $uri = '')
+    {
+        if(empty($uri))return '';
+        return str_replace('/', DIRECTORY_SEPARATOR, $uri);
+    }
+
+>获取ip
+
+    public static function GetIP(){
+        if(!empty($_SERVER["HTTP_CLIENT_IP"])){
+            $cip = $_SERVER["HTTP_CLIENT_IP"];
+        }
+        elseif(!empty($_SERVER["HTTP_X_FORWARDED_FOR"])){
+            $cip = $_SERVER["HTTP_X_FORWARDED_FOR"];
+        }
+        elseif(!empty($_SERVER["REMOTE_ADDR"])){
+            $cip = $_SERVER["REMOTE_ADDR"];
+        }
+        else{
+            $cip = "无法获取！";
+        }
+        return $cip;
+    }
+
+>删除目录和其中的文件
+
+    function DeleteDirandfile( $dirName ='.' )
+    {
+        if ( $handle = opendir( "$dirName" ) ) {
+            while ( false !== ( $item = readdir( $handle ) ) ) {
+                if ( $item != "." && $item != ".." ) {
+                    if ( is_dir( "$dirName/$item" ) ) {
+                        \Sham::DeleteDirandfile( "$dirName/$item" );
+                    } else {
+                        unlink( "$dirName/$item" );
+                        //if( unlink( "$dirName/$item" ) )    echo "成功删除文件： $dirName/$item<br />\n";
+                    }
+                }
+            }
+            closedir( $handle );
+            rmdir( $dirName ) ;
+            //if( rmdir( $dirName ) ) echo "成功删除目录： $dirName<br />\n";
+        }
+    }

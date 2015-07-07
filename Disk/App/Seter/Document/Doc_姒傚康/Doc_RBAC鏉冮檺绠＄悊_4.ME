@@ -1,0 +1,24 @@
+RBAC认为权限授权实际上是Who、What、How的问题。在RBAC模型中，who、what、how构成了访问权限三元组,也就是“Who对What(Which)进行How的操作”。
+
+- Who：权限的拥用者或主体（如Principal、User、Group、Role、Actor等等）
+- What：权限针对的对象或资源（Resource、Class）。
+- How：具体的权限（Privilege,正向授权与负向授权）。
+- Operator：操作。表明对What的How操作。也就是Privilege+Resource
+- Role：角色，一定数量的权限的集合。权限分配的单位与载体,目的是隔离User与Privilege的逻辑关系.
+- Group：用户组，权限分配的单位与载体。权限不考虑分配给特定的用户而给组。组可以包括组(以实现权限的继承)，也可以包含用户，组内用户继承组的权限。User与Group是多对多的关系。- Group可以层次化，以满足不同层级权限控制的要求。
+
+RBAC的关注点在于Role和User, Permission的关系。称为User assignment(UA)和Permission assignment(PA).关系的左右两边都是Many-to-Many关系。就是user可以有多个role，role可以包括多个user。
+
+凡是用过RDBMS都知道，n:m 的关系需要一个中间表来保存两个表的关系。这UA和PA就相当于中间表。事实上，整个RBAC都是基于关系模型。
+
+Session在RBAC中是比较隐晦的一个元素。标准上说：每个Session是一个映射，一个用户到多个role的映射。当一个用户激活他所有角色的一个子集的时候，建立一个session。每个Session和单个的user关联，并且每个User可以关联到一或多个Session.
+
+在RBAC系统中，User实际上是在扮演角色(Role)，可以用Actor来取代User，这个想法来自于Business Modeling With UML一书Actor-Role模式。考虑到多人可以有相同权限，RBAC引入了Group的概念。Group同样也看作是Actor。而User的概念就具象到一个人。
+
+这里的Group和GBAC（Group-Based Access Control）中的Group（组）不同。GBAC多用于操作系统中。其中的Group直接和权限相关联，实际上RBAC也借鉴了一些GBAC的概念。
+
+Group和User都和组织机构有关，但不是组织机构。二者在概念上是不同的。组织机构是物理存在的公司结构的抽象模型，包括部门，人，职位等等，而权限模型是对抽象概念描述。组织结构一般用Martin fowler的Party或责任模式来建模。
+
+Party模式中的Person和User的关系，是每个Person可以对应到一个User，但可能不是所有的User都有对应的Person。Party中的部门Department或组织Organization，都可以对应到Group。反之Group未必对应一个实际的机构。例如，可以有副经理这个Group，这是多人有相同职责。
+
+引入Group这个概念，除了用来解决多人相同角色问题外，还用以解决组织机构的另一种授权问题：例如，A部门的新闻我希望所有的A部门的人都能看。有了这样一个A部门对应的Group，就可直接授权给这个Group。

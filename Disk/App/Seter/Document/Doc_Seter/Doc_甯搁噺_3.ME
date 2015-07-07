@@ -1,0 +1,7 @@
+
+    define('SHAM_PATH',__DIR__);                       //Seter目录
+    !empty($_GET)   && define('ISGET',TRUE);
+    !empty($_POST)  && define('ISPOST',TRUE);
+    !defined('ISGET')   && define('ISGET',false);
+    !defined('ISPOST')  && define('ISPOST',false);     //是否post
+    !defined('BTIME')  && define('BTIME', \Sham::T()); //开始时间戳

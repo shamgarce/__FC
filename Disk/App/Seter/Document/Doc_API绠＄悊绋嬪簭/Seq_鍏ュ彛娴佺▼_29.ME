@@ -1,0 +1,26 @@
+st=>start: 开始
+e=>end: return
+
+Microphproute=>subroutine: cmsroute
+rdb=>subroutine: 读库
+moren=>subroutine: 默认
+moni=>subroutine: 模拟
+zhixing=>subroutine: 执行
+cond=>condition: 版本存在?
+cond2=>condition: 对象存在?
+cond3=>condition: 方法存在?
+cond4=>condition: 调试模式?
+io=>inputoutput: 输入输出...
+
+st->Microphproute->cond
+cond(yes)->rdb->cond4
+cond(no,right)->moren
+cond4(no)->cond2
+cond4(yes,right)->moni
+cond2(yes)->cond3
+cond2(no,right)->moni
+cond3(yes)->zhixing
+cond3(no,right)->moni
+moren->e
+moni->io->e
+zhixing->io->e

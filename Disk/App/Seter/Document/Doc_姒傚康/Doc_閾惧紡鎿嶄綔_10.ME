@@ -1,0 +1,58 @@
+##又称连贯操作/链式调用 
+
+这种代码形式在jquery中被大量采用，很方便，而且很苦
+
+    D().setName("CJ").setAge(18).setName(); 
+    $second.on('click',function(){
+        alert('hello everybody');
+    }).fadeIn('slow').animate({height:'120px'},500);
+
+###php中借鉴了这种代码形式，运用到开发过程中
+
+示例如下
+
+    class sql{
+    private $sql=array("from"=>"",
+            "where"=>"",
+            "order"=>"",
+            "limit"=>"");
+  
+    public function from($tableName) {
+        $this->sql["from"]="FROM ".$tableName;
+        return $this;
+    }
+  
+    public function where($_where='1=1') {
+        $this->sql["where"]="WHERE ".$_where;
+        return $this;
+    }
+  
+    public function order($_order='id DESC') {
+        $this->sql["order"]="ORDER BY ".$_order;
+        return $this;
+    }
+  
+    public function limit($_limit='30') {
+        $this->sql["limit"]="LIMIT 0,".$_limit;
+        return $this;
+    }
+    public function select($_select='*') {
+        return "SELECT ".$_select." ".(implode(" ",$this->sql));
+    }
+    }
+  
+    $sql =new sql();
+  
+    echo $sql->from("testTable")->where("id=1")->order("id DESC")->limit(10)->select();
+
+要点是返回自身对象，把操作的结果放到自身属性中，这样来形成不间断调用！
+
+
+
+
+
+
+
+
+
+

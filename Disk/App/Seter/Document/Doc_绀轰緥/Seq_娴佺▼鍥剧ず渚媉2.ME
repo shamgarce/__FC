@@ -1,0 +1,14 @@
+st=>start: 开始:>http://www.google.com[blank]
+e=>end: 结束:>http://www.google.com
+
+op1=>operation: 操作1
+op2=>operation: 操作2
+sub1=>subroutine: 过程
+cond=>condition: Yes
+or No?:>http://www.google.com
+io=>inputoutput: 输入输出...
+
+st->op1(right)->cond
+cond(yes)->io
+cond(no)->sub1(right)->op1
+io->e
