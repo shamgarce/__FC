@@ -305,10 +305,10 @@ class SinglePHP {
                 includeIfExist(C('BASE_FULL_PATH').'/Lib/'.$class.'.class.php');
             }
             if(!class_exists($class)){
-                includeIfExist(C('APP_FULL_PATH').'/Models/'.$class.'.php');
+                includeIfExist(C('APP_FULL_PATH').'/Models/'.$class.'.model.php');
             }
             if(!class_exists($class)){
-                includeIfExist(C('BASE_FULL_PATH').'/Models/'.$class.'.php');
+                includeIfExist(C('BASE_FULL_PATH').'/Models/'.$class.'.model.php');
             }
         }
     }

@@ -21,8 +21,8 @@ $config = [
     'mysql'=>[
         'default'=>[
             "hostname"  =>  '127.0.0.1',
-            "username"  =>  'nsv1',
-            "password"  =>  'nsgd012003',
+            "username"  =>  'root',
+            "password"  =>  'root3306',
             "database"  =>  'nsv1',
 
             "charset"   =>  'utf8',

@@ -28,14 +28,54 @@ class home extends BaseController {
     {
         switch($ar){
             case 'model':
-                $this->model->ms->go();
+                $this->model->modeltest->go();
+                $this->model->modeltest2->go();
                 exit;
             break;
             case 'db':
+                echo "
+                <br>getone
+                <br>getrow
+                <br>getcol
+                <br>getmap
+                <br>getall
+                <br>sutoExecute<br>
+                ";
+//                $this->db->autoExecute();
+//                $this->db->query();
+                $rc = $this->db->getone("select * from dy_user");
+                D($rc);
+                $rc = $this->db->getrow("select * from dy_user");
+                D($rc);
+                $rc = $this->db->getcol("select * from dy_user");
+                D($rc);
+                $rc = $this->db->getmap("select * from dy_user");
+                D($rc);
+                $rc = $this->db->getall("select * from dy_user");
+                D($rc);
+                exit;
                 break;
             case 'table':
+                echo '$rc = $this->table->dy_user->order("uid desc")->colmn()->group()->where()->order()->limit(0,2)->getall();';
+                $rc = $this->table->dy_user->order("uid desc")->colm()->group()->where()->order()->limit(0,2)->getall();
+                D($rc);
+                exit;
                 break;
             case 'user':
+                echo '<pre>';
+                echo 'USER :
+                ->regsign("username",$usinfo)   //注册新用户
+                ->ver("user","password")        //验证用户是否正确
+                ->delete("username")            //删除用户
+                ->changepwassword("username","newpassword") //更改密码
+                ->logout()    登出
+                ->info()      获取用户信息
+                ->groupinfo()
+                ->isguest()
+                ->isadmin()
+                ->viewtable()
+                ';
+                exit;
                 break;
         }
 

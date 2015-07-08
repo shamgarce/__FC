@@ -12,27 +12,18 @@ namespace Seter\Library;
 //用户模型
 /*
  * 暂时的功能局限到获取自己的信息
- * 调用
- * \Seter\Seter::getInstance()->user->isguest()
- * \Seter\Seter::getInstance()->user->myinfo()
- * \Seter\Seter::getInstance()->user->mygroup()
- *
- * //操作
  * //========================================
- * add edit     以后再写
- * //========================================
- * login
- * logout
- * isguest
- * islogin
-
- *
- * uname
- * tnamne
- * groupid
- * myinfo
- *
- *
+    ->regsign("username",$usinfo)   //注册新用户
+    ->ver("user","password")        //验证用户是否正确
+    ->delete("username")            //删除用户
+    ->changepwassword("username","newpassword") //更改密码
+    ->editinfo($res) //更改密码
+    ->logout()    登出
+    ->info()      获取用户信息
+    ->groupinfo()
+    ->isguest()
+    ->isadmin()
+    ->viewtable()
  * */
 class User
 {
@@ -40,7 +31,6 @@ class User
     public $loginurl    = '/u/home.login';
     public $logout      = '/u/home.loginout';
     public $logingo     = '/u/home.index';
-
     /*
      * =============================================================
      *     //针对当前用户
@@ -59,17 +49,19 @@ class User
     public $fileloginip = 'f_loginip';//'logip';
     public $filelogintm = 'f_logintime';//'logtime';
     //* =============================================================
+    public $admingroupid = array(1,2,3);
+    public $adminuname = array('irones','info');
+    //this for person
     public $identity = array();
     public $isguest = true;
+    public $isadmin = false;
 
-    public function test()
-    {
-        echo "user::test";
-    }
     public function __construct()
     {
         $this->S = \Seter\Seter::getInstance();
         $this->isguest = $this->isguest();
+        $this->isadmin = $this->isadmin();
+//        $this->userinfo = $this->isadmin();
     }
 
 //    public function getusergroup(){
@@ -252,16 +244,16 @@ mysql> show columns from v_user;
 | Field       | Type        | Null | Key | Default | Extra          |
 +-------------+-------------+------+-----+---------+----------------+
 | uid         | int(11)     | NO   | PRI | NULL    | auto_increment |
-| uname       | varchar(32) | NO   | UNI | NULL    |                |uname -> user_login
-| tname       | varchar(32) | YES  |     | NULL    |                |tname -> user_name
-| pwd         | varchar(64) | NO   |     | NULL    |                |pwd   ->	user_password
-    | groupid     | int(11)     | YES  |     | NULL    |                |
-    | authKey     | varchar(64) | YES  |     | NULL    |                |
-    | accessToken | varchar(64) | YES  |     | NULL    |                |
-| logtime     | int(11)     | YES  |     | NULL    |                |logtime ->	f_logintime
-| logip       | varchar(64) | YES  |     | NULL    |                |logip   ->	f_loginip
+| uname       | varchar(32) | NO   | UNI | NULL    |                |   uname -> user_login
+| tname       | varchar(32) | YES  |     | NULL    |                |   tname -> user_name
+| pwd         | varchar(64) | NO   |     | NULL    |                |   pwd   ->	user_password
+| groupid     | int(11)     | YES  |     | NULL    |                |
+| authKey     | varchar(64) | YES  |     | NULL    |                |
+| accessToken | varchar(64) | YES  |     | NULL    |                |
+| logtime     | int(11)     | YES  |     | NULL    |                |   logtime ->	f_logintime
+| logip       | varchar(64) | YES  |     | NULL    |                |   logip   ->	f_loginip
 | enable      | tinyint(1)  | NO   |     | 0       |                |
-+-------------+-------------+------+-----+---------+----------------+ user_tel / 	device_id   /   open_id /   f_regtime / phonenumber / category
++-------------+-------------+------+-----+---------+----------------+   user_tel / 	device_id   /   open_id /   f_regtime / phonenumber / category
 10 rows in set (0.01 sec)
         */
     }
@@ -269,7 +261,7 @@ mysql> show columns from v_user;
     /*
      * 调试用
      * */
-    public function display()
+    public function viewtable()
     {
         echo '<hr>';
         echo 'cookie';

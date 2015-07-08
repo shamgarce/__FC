@@ -3350,3 +3350,1002 @@ TM : 0 : 2015-07-03 18:00:22
 UPDATE dy_user SET f_logintime = '1435917622.6324', f_loginip = '192.168.1.200' WHERE user_login = 'irones'
 TM : 0 : 2015-07-03 18:00:22
 ----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 13:58:54
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 13:59:05
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 13:59:05
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 13:59:14
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 13:59:14
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:00:09
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:00:09
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:00:09
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:00:09
+----------------------------
+select * from dy_user
+TM : 0.0010001659393311 : 2015-07-08 14:01:10
+----------------------------
+select * from dy_user
+TM : 0.0010001659393311 : 2015-07-08 14:01:10
+----------------------------
+select * from dy_user
+TM : 0.0010001659393311 : 2015-07-08 14:01:10
+----------------------------
+select * from dy_user
+TM : 0.0010001659393311 : 2015-07-08 14:01:10
+----------------------------
+select * from dy_user
+TM : 0.0010001659393311 : 2015-07-08 14:01:10
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:11
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:11
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:11
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:11
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:11
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:11
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:11
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:11
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:11
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:11
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:11
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:11
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:11
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:11
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:11
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:12
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:12
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:12
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:12
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:12
+----------------------------
+select * from dy_user
+TM : 0.0010008811950684 : 2015-07-08 14:01:39
+----------------------------
+select * from dy_user
+TM : 0.0010008811950684 : 2015-07-08 14:01:39
+----------------------------
+select * from dy_user
+TM : 0.0010008811950684 : 2015-07-08 14:01:39
+----------------------------
+select * from dy_user
+TM : 0.0010008811950684 : 2015-07-08 14:01:39
+----------------------------
+select * from dy_user
+TM : 0.0010008811950684 : 2015-07-08 14:01:39
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:01:40
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:58
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:58
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:58
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:58
+----------------------------
+select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:01:58
+----------------------------
+select * from dy_user
+TM : 0.0010001659393311 : 2015-07-08 14:02:36
+----------------------------
+select * from dy_user
+TM : 0.0010001659393311 : 2015-07-08 14:02:36
+----------------------------
+select * from dy_user
+TM : 0.0010001659393311 : 2015-07-08 14:02:36
+----------------------------
+select * from dy_user
+TM : 0.0010001659393311 : 2015-07-08 14:02:36
+----------------------------
+select * from dy_user
+TM : 0.0010001659393311 : 2015-07-08 14:02:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:05:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:05:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:05:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:05:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:05:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:05:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:05:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:05:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:05:31
+----------------------------
+ select * from dy_user
+TM : 0 : 2015-07-08 14:05:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:05:32
+----------------------------
+ select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:05:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:05:32
+----------------------------
+ select * from dy_user
+TM : 0 : 2015-07-08 14:05:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-08 14:05:33
+----------------------------
+ select * from dy_user
+TM : 0.0010001659393311 : 2015-07-08 14:05:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:05:45
+----------------------------
+ select * from dy_user
+TM : 0.00099992752075195 : 2015-07-08 14:05:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-08 14:05:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:06:06
+----------------------------
+ select * from dy_user order by uid
+TM : 0 : 2015-07-08 14:06:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:06:12
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0 : 2015-07-08 14:06:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:24:33
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0.00099992752075195 : 2015-07-08 14:24:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:24:33
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0.00099992752075195 : 2015-07-08 14:24:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:24:34
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0.00099992752075195 : 2015-07-08 14:24:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:24:34
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0 : 2015-07-08 14:24:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:41:01
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0 : 2015-07-08 14:41:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:41:02
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0 : 2015-07-08 14:41:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:41:02
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0 : 2015-07-08 14:41:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:41:02
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0.00099992752075195 : 2015-07-08 14:41:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:41:02
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0.00099992752075195 : 2015-07-08 14:41:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:41:54
+----------------------------
+ select * from dy_user order by uid desc limit 0,15
+TM : 0 : 2015-07-08 14:41:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:41:59
+----------------------------
+ select * from dy_user order by uid desc limit 0,2
+TM : 0.00099992752075195 : 2015-07-08 14:41:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:42:00
+----------------------------
+ select * from dy_user order by uid desc limit 0,2
+TM : 0 : 2015-07-08 14:42:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:42:00
+----------------------------
+ select * from dy_user order by uid desc limit 0,2
+TM : 0 : 2015-07-08 14:42:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:42:01
+----------------------------
+ select * from dy_user order by uid desc limit 0,2
+TM : 0 : 2015-07-08 14:42:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:42:01
+----------------------------
+ select * from dy_user order by uid desc limit 0,2
+TM : 0 : 2015-07-08 14:42:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:42:01
+----------------------------
+ select * from dy_user order by uid desc limit 0,2
+TM : 0 : 2015-07-08 14:42:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:43:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.0010008811950684 : 2015-07-08 14:43:45
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0.0010008811950684 : 2015-07-08 14:43:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:43:46
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:43:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:43:46
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:43:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-08 14:43:47
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0.0010001659393311 : 2015-07-08 14:43:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:43:47
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:43:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:43:47
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:43:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:43:48
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:43:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:43:48
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0.00099992752075195 : 2015-07-08 14:43:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:43:48
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:43:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:43:48
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0.00099992752075195 : 2015-07-08 14:43:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:00
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:00
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-08 14:44:01
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0.0010001659393311 : 2015-07-08 14:44:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:01
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:01
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:02
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:02
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:02
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:44:02
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0.00099992752075195 : 2015-07-08 14:44:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:02
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:09
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:44:10
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0.00099992752075195 : 2015-07-08 14:44:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:10
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:44:10
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0.00099992752075195 : 2015-07-08 14:44:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0.0010001659393311 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0.00099992752075195 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:44:11
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0.00099992752075195 : 2015-07-08 14:44:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:44:12
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0.00099992752075195 : 2015-07-08 14:44:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:44:12
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0.00099992752075195 : 2015-07-08 14:44:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:44:12
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0.00099992752075195 : 2015-07-08 14:44:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:12
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:44:13
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0.00099992752075195 : 2015-07-08 14:44:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:13
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:13
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:13
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-08 14:44:13
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0.00099992752075195 : 2015-07-08 14:44:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:13
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:47
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:47
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:44:49
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:44:49
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:44:49
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:44:49
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:44:49
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:44:58
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:44:58
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:44:58
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:44:58
+----------------------------
+select * from dy_user
+TM : 0 : 2015-07-08 14:44:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='nsv1' and table_type='base table'
+                
+TM : 0 : 2015-07-08 14:44:59
+----------------------------
+ select * from dy_user where 1 limit 0,2
+TM : 0 : 2015-07-08 14:44:59
+----------------------------

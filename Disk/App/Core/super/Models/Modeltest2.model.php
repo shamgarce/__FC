@@ -4,7 +4,7 @@
  * Class Ms
  * hook : _init
  */
-class Ms extends Model
+class Modeltest2 extends Model
 {
     public function load($res = null)
     {
@@ -12,10 +12,10 @@ class Ms extends Model
     }
     public function go()
     {
-        echo '模型';
-        D($this->get);
-        D($this->post);
-        D($this->cookie);
+        echo '<br>模型app';
+//        D($this->get);
+//        D($this->post);
+//        D($this->cookie);
     }
 
     /**

@@ -13,12 +13,12 @@ View::tplInclude('Public/header', $data); ?>
         <p>在控制器中已经用依赖注入的方法对部分对象进行了重定向 这部分对象是 ：db table model request user 其中table、user依赖于db 单例调用 \Seter\Seter::getInstance();</p>
 
             <a href="/super/home/srequest" target='_blank' class="btn btn-outline-inverse btn-lg" >request</a>
-            <a href="/super/home/gh" target='_blank' class="btn btn-outline-inverse btn-lg" >model</a>
+            <a href="/super/home/s/model" target='_blank' class="btn btn-outline-inverse btn-lg" >model</a>
         <br>
         <br>
-            <a href="/super/home/gh" target='_blank' class="btn btn-outline-inverse btn-lg" >db</a>
-->          <a href="/super/home/gh" target='_blank' class="btn btn-outline-inverse btn-lg" >table</a>
-            <a href="/super/home/gh" target='_blank' class="btn btn-outline-inverse btn-lg" >user</a>
+            <a href="/super/home/s/db" target='_blank' class="btn btn-outline-inverse btn-lg" >db</a>
+->          <a href="/super/home/s/table" target='_blank' class="btn btn-outline-inverse btn-lg" >table</a>
+            <a href="/super/home/s/user" target='_blank' class="btn btn-outline-inverse btn-lg" >user</a>
 
       </p>
 

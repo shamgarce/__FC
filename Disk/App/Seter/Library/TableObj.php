@@ -53,13 +53,13 @@ class TableObj
         return $this;
     }
 
-    public function order($order)
+    public function order($order = '')
     {
         $this->order = $order;
         return $this;
     }
 
-    public function group($group)
+    public function group($group = '')
     {
         $this->group = $group;
         return $this;

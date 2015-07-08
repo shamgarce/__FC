@@ -1,0 +1,29 @@
+[ 2015-07-08 14:45:01 ][FATAL]方法doUser不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\FC\\SinglePHP.class.php',
+    'line' => 198,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '方法doUser不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\FC\\Disk\\index.php',
+    'line' => 9,
+    'function' => 'run',
+    'class' => 'SinglePHP',
+    'object' => 
+    SinglePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
